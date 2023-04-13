@@ -1,16 +1,51 @@
-# covid_tracker
 
-A new Flutter project.
+# Flutter Covid-19 Tracker Application With Rest-API And Provider❤️ 
 
-## Getting Started
+Here is my brand new Flutter Project, which is Covid-19 Tracker Application with Rest API and Provider as a state management.
+Hope you guys will like this.
+Thanks for reading❤️ 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Roadmap
+- Dribble
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Dart
+- Flutter
+- Rest Api
+- Provider
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Screenshots
+
+### App Overview
+
+![App Screenshot](https://github.com/rafipsv/Covid-Tracker/blob/master/ShowCase/Covid%20Tracker%20MockUp.gif?raw=true)
+
+### Splash Screen
+
+![App Screenshot](https://github.com/rafipsv/Covid-Tracker/blob/master/ShowCase/Splash%20Screen.png?raw=true)
+
+### HomePage
+
+![App Screenshot](https://github.com/rafipsv/Covid-Tracker/blob/master/ShowCase/All%20Data%20Page.png?raw=true)
+
+### All Country Page
+
+![App Screenshot](https://github.com/rafipsv/Covid-Tracker/blob/master/ShowCase/All%20Country%20Page.png?raw=true)
+
+### Search Page
+
+![App Screenshot](https://github.com/rafipsv/Covid-Tracker/blob/master/ShowCase/Search%20Page.png?raw=true)
+### Country Details
+
+![App Screenshot](https://github.com/rafipsv/Covid-Tracker/blob/master/ShowCase/Country%20Details.png?raw=true)
+
+
+
+
+
+
+
+
+
+
