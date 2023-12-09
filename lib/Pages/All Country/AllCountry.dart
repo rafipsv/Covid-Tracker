@@ -9,7 +9,6 @@ import 'package:provider/provider.dart';
 
 import 'Widgets/AllCountryCard.dart';
 
-
 // starting of all country widget.
 class AllCountry extends StatefulWidget {
   const AllCountry({super.key});
@@ -22,8 +21,18 @@ class _AllCountryState extends State<AllCountry> {
   // declare text field controller for control search field.
   TextEditingController controller = TextEditingController();
   @override
+  void initState() {
+    getData();
+    super.initState();
+  }
+
+  void getData() async {
+    final provider = Provider.of<AllCountryProvider>(context, listen: false);
+    provider.getAllcountry();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    Provider.of<AllCountryProvider>(context).getAllcountry();
     return SafeArea(
       child: Scaffold(
         body: Container(

@@ -2,7 +2,7 @@
 
 import 'dart:async';
 
-import 'package:covid_tracker/Pages/Home%20Page/HomePage.dart';
+import 'package:covid_tracker/Pages/Auth%20Pages/LoginPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -30,11 +30,12 @@ class _SplashState extends State<Splash> with TickerProviderStateMixin {
       Navigator.pushAndRemoveUntil(
           context,
           MaterialPageRoute(
-            builder: (context) => const HomePage(),
+            builder: (context) => const LoginPage(),
           ),
           (route) => false);
     });
   }
+
 // using dispose for destroy controller after animation.
   @override
   void dispose() {

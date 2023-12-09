@@ -2,7 +2,6 @@
 import 'package:covid_tracker/Services/Network.dart';
 import 'package:flutter/material.dart';
 
-
 // this provider class is for Fetch All Country's Data.
 class AllCountryProvider with ChangeNotifier {
   String searchCountry = "";

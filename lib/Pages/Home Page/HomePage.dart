@@ -7,12 +7,25 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 // starting of homepage widget.
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  void initState() {
+    super.initState();
+    final provider = Provider.of<AllStatProvider>(context, listen: false);
+    provider.getAllStat();
+  }
+
   @override
   Widget build(BuildContext context) {
     // calling this method through the provider for getting realtime data using api.
-    Provider.of<AllStatProvider>(context).getAllStat();
+
     // connext widget to allStatProvider through consumer.
     return Consumer<AllStatProvider>(
       builder: (context, value, child) {

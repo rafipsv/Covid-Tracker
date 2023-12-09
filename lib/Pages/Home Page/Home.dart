@@ -1,9 +1,10 @@
-// ignore_for_file: file_names
+// ignore_for_file: file_names, unnecessary_null_comparison
 
 import 'package:covid_tracker/Pages/All%20Country/AllCountry.dart';
 import 'package:covid_tracker/Pages/Home%20Page/Widgets/CustomButton.dart';
 import 'package:covid_tracker/Pages/Home%20Page/Widgets/CustomCard.dart';
 import 'package:covid_tracker/Pages/Home%20Page/Widgets/CustomChart.dart';
+import 'package:covid_tracker/Provider/AllStatProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
@@ -14,7 +15,7 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Consumer(
+    return Consumer<AllStatProvider>(
       builder: (context, value, child) {
         return SafeArea(
           child: Scaffold(
